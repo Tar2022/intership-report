@@ -1,0 +1,179 @@
+🐧 Week 2 – Linux System Administration for DevOps
+
+👨‍💻 Intern: Tarun Jatav
+🏢 Organization: GE Vernova
+📅 Duration: Week 2
+🎯 Focus: Linux Administration & DevOps Foundations
+
+📚 Topics Covered
+Module	Description
+Fundamentals	Linux architecture & basic commands
+File & User Management	Permissions and user administration
+Process Monitoring	Managing running processes
+Disk & Storage	Partitioning and filesystem basics
+Networking	Linux networking tools
+Automation	Bash scripting and cron jobs
+Advanced Topics	Services, containers, virtualization
+⚙️ 1. Linux Fundamentals
+🏗 Linux Architecture
+Component	Description
+Kernel	Core of Linux that manages hardware resources
+Shell	Interface used to interact with the system
+File System	Hierarchical structure starting from /
+💻 Basic Commands
+ls      # List files
+cd      # Change directory
+pwd     # Show current directory
+cat     # Display file content
+echo    # Print text
+man     # Command manual
+📦 Package Management
+sudo apt update
+sudo apt install nginx
+
+Other package managers used in Linux systems:
+
+apt
+
+yum
+
+dnf
+
+📁 2. File & User Management
+🔐 File Permissions
+chmod 755 script.sh
+chown user:group file.txt
+umask
+Permission	Meaning
+r	Read
+w	Write
+x	Execute
+👥 User & Group Management
+sudo useradd devuser
+sudo passwd devuser
+groups devuser
+sudo usermod -aG sudo devuser
+📂 Important Linux Directories
+Directory	Purpose
+/etc	Configuration files
+/var	Logs and system data
+/home	User home directories
+/usr	System applications
+📊 3. Process & System Monitoring
+⚡ Process Management
+ps
+top
+kill
+jobs
+bg
+fg
+📜 System Logs
+
+Important log directory:
+
+/var/log
+
+Command used:
+
+journalctl
+📈 Resource Monitoring
+df -h
+du -sh
+free -m
+uptime
+
+These commands help monitor disk, memory, and system usage.
+
+💾 4. Disk & Storage
+Disk Management
+lsblk
+fdisk -l
+mount
+umount
+File Systems
+File System	Description
+ext4	Default Linux filesystem
+xfs	High performance filesystem
+btrfs	Advanced filesystem with snapshots
+Swap Space
+
+Swap acts as virtual memory when RAM usage is high.
+
+🌐 5. Networking
+Network Commands
+ping google.com
+ifconfig
+ip a
+netstat
+ss
+Remote Access
+ssh user@server-ip
+scp file.txt user@server-ip:/home/user
+rsync -av file.txt user@server-ip:/home/user
+Firewall Tools
+
+iptables
+
+ufw
+
+Used for controlling network traffic and system security.
+
+🤖 6. Automation & Scripting
+Bash Script Example
+#!/bin/bash
+echo "System Information"
+uptime
+free -m
+df -h
+⏰ Cron Jobs
+crontab -e
+
+Example schedule:
+
+0 2 * * * /home/ubuntu/backup.sh
+
+Runs a script daily at 2 AM.
+
+Environment Variables
+export PATH=$PATH:/new/path
+
+Configuration files:
+
+.bashrc
+
+.profile
+
+🚀 7. Advanced Linux Concepts
+System Services
+systemctl start nginx
+systemctl stop nginx
+systemctl status nginx
+Networking Services
+
+Basic understanding of:
+
+DNS
+
+DHCP
+
+Containers & Virtualization
+
+Key Linux technologies:
+
+Namespaces → Process isolation
+
+cgroups → Resource management
+
+These are the core technologies behind container platforms like Docker.
+
+✅ Key Learning Outcomes
+
+✔ Understanding Linux architecture
+✔ Managing files, users, and permissions
+✔ Monitoring processes and system resources
+✔ Managing disks and filesystems
+✔ Basic networking and remote access
+✔ Automation using Bash scripts and cron jobs
+
+⭐ Summary:
+Week 2 focused on Linux system administration and DevOps fundamentals, providing hands-on experience with command-line tools, system monitoring, networking, and automation used in modern infrastructure environments.
