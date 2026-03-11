@@ -1,0 +1,71 @@
+#from date 03-march-26 to 10-march-26.
+understanding linux and devops#
+
+
+------------what i did----
+Intern: Tarun Jatav
+Organization: GE Vernova
+Focus Area: Linux Basics for DevOps Environment
+
+Overview
+
+During the first week of my internship, I focused on understanding the fundamentals of Linux, which is widely used for managing servers and cloud infrastructure in DevOps environments. The goal was to become comfortable with the Linux terminal and basic system operations.
+
+Topics Explored
+1. Linux File System Navigation
+
+Learned how to move through directories and understand the Linux file system structure.
+
+Commands practiced:
+
+pwd – Display current directory
+
+ls – List files and directories
+
+cd – Change directory
+
+2. File and Directory Management
+
+Practiced creating, editing, and deleting files and directories.
+
+Commands practiced:
+
+mkdir – Create a new directory
+
+touch – Create a new file
+
+rm – Remove files or directories
+
+cat – View file contents
+
+3. System Monitoring Commands
+
+Explored commands used to check system performance and resource usage.
+
+Commands practiced:
+
+top – Monitor running processes
+
+df -h – Check disk usage
+
+free -m – View memory usage
+
+4. File Permissions
+
+Understood basic file permission management in Linux.
+
+Commands practiced:
+
+chmod – Change file permissions
+
+5. Remote Server Access
+
+Practiced connecting to remote Linux servers using SSH, which is essential for managing cloud infrastructure and DevOps environments.
+
+Command used:
+
+ssh – Secure remote login to servers
+
+Key Learning Outcome
+
+This week provided a strong foundation in Linux system operations and command-line usage. These skills are essential for working with cloud servers, automation tools, and DevOps workflows.
