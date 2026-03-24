@@ -1,0 +1,168 @@
+# 📘 Internship Learning Report
+
+### 📅 Duration: 23rd March – 30th March
+
+### 👨‍💻 Name: Tarun Jatav
+
+---
+
+## 🌟 Overview
+
+During this week of my internship, I focused on learning **modern DevOps tools and practices**. I gained hands-on experience with containerization, CI/CD automation, and deployment tools. This report summarizes everything I learned and implemented.
+
+---
+
+## 🐳 1. Docker & Containerization
+
+### 🔹 What I Learned
+
+* Basics of **Docker containers**
+* Difference between **containers vs virtual machines**
+* How Docker helps in **consistent environments**
+* Running applications inside isolated containers
+
+### 🔹 Tools & Commands Practiced
+
+* `docker build`
+* `docker run`
+* `docker ps`
+* `docker images`
+* `docker stop`
+
+### 🔹 Writing a Dockerfile
+
+I learned how to create a **Dockerfile** for my pre-built project.
+
+### 📄 Example Dockerfile (React App)
+
+```dockerfile
+# Use official Node image
+FROM node:18
+
+# Set working directory
+WORKDIR /app
+
+# Copy files
+COPY . .
+
+# Install dependencies
+RUN npm install
+
+# Build the app
+RUN npm run build
+
+# Start the app
+CMD ["npm", "run", "preview"]
+```
+
+---
+
+## ⚙️ 2. GitHub Actions (CI/CD)
+
+### 🔹 What I Learned
+
+* Basics of **CI/CD pipelines**
+* Automating build and deployment
+* Writing workflows using YAML files
+
+### 🔹 Key Concepts
+
+* Workflows
+* Jobs
+* Steps
+* Triggers (push, pull request)
+
+### 📄 Sample GitHub Action Workflow
+
+```yaml
+name: Node.js CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+```
+
+---
+
+## ☸️ 3. Helm (Kubernetes Package Manager)
+
+### 🔹 What I Learned
+
+* Helm is used to **manage Kubernetes applications**
+* Helps in deploying apps using **charts**
+* Simplifies complex Kubernetes configurations
+
+### 🔹 Key Concepts
+
+* Charts
+* Values.yaml
+* Templates
+
+---
+
+## 🚀 4. Argo (GitOps Tool)
+
+### 🔹 What I Learned
+
+* Basics of **Argo CD**
+* Continuous deployment using **GitOps**
+* Syncing Kubernetes clusters with Git repositories
+
+### 🔹 Benefits
+
+* Automated deployments
+* Version control for infrastructure
+* Easy rollback
+
+---
+
+## 🧠 Key Takeaways
+
+✨ Learned how to containerize applications using Docker
+✨ Understood CI/CD pipelines with GitHub Actions
+✨ Explored Kubernetes deployment tools like Helm
+✨ Gained knowledge of GitOps using Argo CD
+
+---
+
+## 🏁 Conclusion
+
+This week was highly productive as I explored **DevOps tools used in real-world production environments**. These skills will help me in building scalable, automated, and efficient systems in future projects.
+
+---
+
+## 🎯 Future Goals
+
+* Deep dive into Kubernetes
+* Build complete CI/CD pipelines
+* Deploy full-stack applications using Docker + Kubernetes
+* Master Helm and Argo CD
+
+---
+
+## 🙌 Acknowledgment
+
+I am grateful for the opportunity to learn and grow during this internship. This experience helped me understand modern software deployment practices.
+
+---
+
+✨ *End of Report* ✨
