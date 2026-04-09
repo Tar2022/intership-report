@@ -1,0 +1,68 @@
+🌐 GE Vernova Internship Learning – Foundation
+
+During my internship at GE Vernova, I began exploring the ⚡ Foundation of GridOS, focusing on system architecture, deployment workflows, and observability tools used in real-time grid environments.
+
+🛠️ Tools & Technologies I Learned
+
+- 🐸 Frog – Artifact management and build dependencies
+- 📦 Nexus – Repository and package management
+- 📊 Grafana – Visualization dashboards and monitoring
+- 🔥 Prometheus – Metrics collection and alerting
+
+These tools helped me understand how GridOS systems are monitored, maintained, and optimized in production environments.
+
+---
+
+🐞 Debugging Experience with Mentor
+
+One of my most valuable learning experiences was spending ⚡ one full day debugging a deployment issue with my mentor.
+
+The debugging process included:
+
+- 🔍 Log analysis
+- ⚙️ Environment configuration checks
+- 📦 Dependency validation
+- 🚀 Deployment troubleshooting
+
+Initially, the issue seemed complex and difficult, but my mentor guided me and explained that debugging takes time and patience. This experience improved my problem-solving mindset and technical confidence.
+
+---
+
+🚀 First Pull Request Deployment Task
+
+My mentor later assigned me my first GridOS Pull Request deployment task. Since it was my first time, I faced several challenges:
+
+- 🔐 Repository access setup
+- 🌐 Proxy configuration requirement
+- 📥 Git clone issues
+
+The git clone process initially failed due to proxy setup requirements. After troubleshooting and learning the configuration, I successfully completed it on my second attempt.
+
+---
+
+📚 Concepts I Learned
+
+During this task, I also learned:
+
+- 🧠 Shallow Copy vs Deep Copy
+- 📁 Repository structure understanding
+- 🔄 Pull request workflow
+- 🚀 Deployment process in GridOS
+
+---
+
+✨ Key Learnings
+
+- ⚡ Understanding GridOS Architecture
+- 🛠️ Learning Monitoring & Observability Tools
+- 🐞 Developing Debugging Skills
+- 🚀 Performing Pull Request Deployment
+- 💻 Hands-on Git & Proxy Configuration
+
+---
+
+🎯 Conclusion
+
+Although the tasks initially felt challenging, completing them helped me gain confidence, technical exposure, and real-world deployment experience.
+
+This internship marked my first step into production-level engineering and strengthened my foundation in GridOS and deployment workflows.
